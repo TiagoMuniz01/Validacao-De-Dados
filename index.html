@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validar dados</title>
+    <script>
+        function validarDados(){
+
+            if( document.getElementById("none").value == ""){
+
+                alert("Preencha o campo Nome")
+
+            if ( document.getElementById("endereço").value == ""){
+
+                alert("Preencha o campo Nome")            
+            }
+
+            if ( document.getElementById("bairro").value == ""){
+
+                alert("Preencha o campo Nome")            
+            }
+
+            if ( document.getElementById("cep").value == ""){
+
+                alert("Preencha o campo Nome")            
+            }
+
+            if ( document.getElementById("cidade").value == ""){
+
+                alert("Preencha o campo Nome")            
+            }
+        }
+    }
+
+    </script>
+</head>
+
+<body>
+    
+    Nome: <input type="text" name="nome" id="nome"> <br><br>
+    Endereço: <input type="text" name="endereço" id="endereço"> <br><br>
+    Bairro: <input type="text" name="bairro" id="bairro"> <br><br>
+    Cidade: <input type="text" name="cidade" id="cidade"> <br><br>
+    Estado: <input type="text" name="estado" id="estado"> <br><br>
+    <button name="cadastrar" id="cadastrar" onclick="validarDados()">Cadastrar</button>
+
+
+</body>
+
+</html>
